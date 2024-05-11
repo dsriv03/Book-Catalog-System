@@ -1,0 +1,38 @@
+<!--
+Author: Divyansh Srivastava
+College ID: 041109063
+Date: 30/3/2024
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <script src="../js/script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Divyansh Srivastava">
+    <title>Book Cataloging System</title>
+</head>
+<body>
+    <header>
+        <h1>Create an account</h1>
+    </header>
+
+    <form action="../server/create.php" method="POST" onsubmit="validate()">
+        <div class="formDiv">
+
+            <label for="username" class="formLabel">Username</label>
+            <input type="text" id="username" name="username" class="formInput">
+            <br>
+            <label for="password" class="formLabel">Password</label>
+            <input type="text" id="password" name="password" class="formInput">
+
+        </div>
+
+        <button type="submit" class="button">Register</button>
+
+    </form>
+
+</body>
+</html>

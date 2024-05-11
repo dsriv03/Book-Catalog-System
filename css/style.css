@@ -1,0 +1,86 @@
+/*
+Author: Divyansh Srivastava
+College ID: 041109063
+Date: 30/3/2024
+*/
+
+body {
+    max-width: 70%;
+    margin: auto;
+    background-color: pink;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 7vh;
+}
+
+p {
+}
+
+#selectionItems {
+    text-align: center;
+    border-radius: 4px;
+    border: solid;
+    max-width: 30%;
+    margin: auto;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: beige;
+}
+
+.formDiv {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    margin: 3vh;
+}
+
+.bookItems {
+    display: inline-table;
+    padding: 3vh;
+    text-align: left;
+}
+
+img {
+    float: left;
+    max-width: 40%;
+    padding: 1vw;
+}
+
+.title, .cover, .authro, .genre, .description {
+    margin: 10px;
+}
+
+a {
+    padding: 0.5vw;
+    background-color: beige;
+    border: solid;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+
+hr {
+    margin-top: 6vh;
+    border: 0;
+    height: 1px;
+    background-color: black;
+}
